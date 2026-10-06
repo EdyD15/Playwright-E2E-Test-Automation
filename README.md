@@ -10,7 +10,7 @@ The project strictly follows the **Page Object Model (POM)** design pattern. Sel
 **Authentication Module:**
    - Happy Path: Successful login with valid credentials.
    - Negative Testing / Edge Case: Triggering and validating exact error messages for invalid passwords.
-**Checkout Flow Module:**
+ **Checkout Flow Module:**
    - Adding items to the cart and validating cart badge state.
    - Completing the E2E checkout process with shipping details.
    - Validating the final order confirmation screen via strict assertions.
